@@ -17,6 +17,14 @@ A Aliança Rebelde mantém uma base avançada no planeta gelado Hot, um refúgio
 
 ### A missão:
 
+Problema: Cada subsistema consome energia de 6 tipos de fontes: Células de Fusão, Núcleos de Hipermatéria, Capacitores Solares.          (geradores geotérmicos e baterias químicas).
+
+Modelo: Criar uma matriz de consumo energético onde cada linha é um subsistema e cada coluna é uma fonte de energia.
+
+Objetivo: Resolver um sistema linear para encontrar quanto cada fonte precisa produzir para atender a demanda total.
+
+
+VERSÃO ANTIGA:
 Decidir quanto de cada fonte alocar a cada subsystema, de modo que as necessidades mínimas sejam atendidas, restrições não-lineares (eficiência dos escudos, estabilidade dos motores) não sejam violadas, e um objetivo operacional seja otimizado (por exemplo, maximizar o tempo total operacional dos subsistemas críticos ou maximizar um índice de sobrevivência ponderado).
 
 ## Modelagem Matemática
